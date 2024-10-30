@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form Club Bola</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+      <form>
+        <div class="bg-form">
+      <div class="item-judul">
+        <h1>PENDATAAN CLUB BOLA</h1>
+      </div>
+            <div class="form-control">
+              <label for="nama-club" id="label-nama">Nama club</label>
+              <input type="text" id="nama-club" placeholder="Masukkan nama club..." />
+            </div>
+
+            <div class="form-control">
+              <label for="nama-pelatih" id="nama-pelatih">Nama Kepala Pelatih</label>
+              <input type="text" id="nama-pelatih" placeholder="Masukkan nama kepala pelatih..." />
+            </div>
+    
+
+            <div class="form-control">
+              <label for="asal-club" id="asal-club">Asal klub</label>
+              <input type="text" id="asal-club" placeholder="Masukkan daerah asal club..." />
+            </div>
+
+            <div class="form-control">
+              <label for="stadion" id="asal-club">Stadion</label>
+              <input type="text" id="stadion" placeholder="Masukkan nama Stadion..." />
+            </div>
+
+            <div class="form-control">
+              <label for="tempat-latihan" id="asal-club">Tempat latihan</label>
+              <input type="text" id="tempat-latihan" placeholder="Tempat club berlatih..." />
+            </div>
+
+            <div class="form-control">
+              <label for="total-pemain" id="registered">Pemain di club</label>
+              <table>
+                <tr>
+                <td><li class="inti">Pemain inti</li></td>
+                <td><input type="text" id="pemain-inti" placeholder="Jumlah pemain inti..."></td>
+              </tr>
+              <tr>
+                <td><li class="u21">Usia 21 Tahun</li></td>
+                <td><input type="text" id="pemain-u21" placeholder="Jumlah pemain U21..."></td>
+              </tr>
+              <tr>
+                <td><li class="u19">Usia 19 Tahun</li></td>
+                <td><input type="text" id="pemain-u19" placeholder="Jumlah pemain U19..."></td>
+              </tr>
+              <tr>
+                <td><li class="u16">Usia 16 Tahun</li></td>
+                <td> <input type="text" id="pemain-u16" placeholder="Jumlah pemain U16..."></td>
+              </tr>
+          </table>
+            </div>
+
+            <div class="form-control">
+              <label>Apakah menggunakan pemain asing?</label>
+
+              <label for="rekomendasi-1"> <input type="radio" id="rekomendasi-1" name="rekomendasi" /> Iya </label>
+
+              <label for="rekomendasi-2"> <input type="radio" id="rekomendasi-2" name="rekomendasi" /> Tidak </label>
+
+              <label for="foreign" id="foreign">Pemain asing</label>
+              <input type="text" id="name" placeholder="Jumlah pemain asing..." />
+            </div>
+
+            <div class="form-control">
+              <label for="trofi" id="trofi">Trofi yang dimenangkan</label>
+              <select name="lingkup" id="lingkup">
+                <option value="internasional">Internasional</option>
+                <option value="nasional">Nasional</option>
+                <option value="lokal">Lokal</option>
+              </select>
+              <input type="file"/>
+            </div>
+
+            <div class="form-control">
+              <label for="email">Email club</label>
+              <input type="email" id="email" placeholder="Masukkan email klub..." />
+            </div>
+
+            <div class="form-control">
+              <label for="upload">Foto bersama</label>
+              <input type="file" name="foto"/>
+            </div>
+            <button type="kirim" value="kirim">Kirim</button>
+          </div>
+  </body>
+</html>
